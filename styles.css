@@ -1,0 +1,174 @@
+.row-header {
+  margin: 0px auto;
+}
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.footer {
+  background-color: black;
+  margin: 0px auto;
+  padding: 80px 0px;
+}
+body  {
+  overflow-x: hidden;
+  background-color: black;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fa-map-marker{
+  position: relative;
+  left: 35px;
+}
+.fa-envelope{
+  position: relative;
+  right: 10px;
+}
+.noise{
+  position: relative;
+  left: 15px;
+  bottom: 10px;
+}
+
+img {
+  position: absolute;
+
+  z-index: -4;
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300px;
+  text-align: center;
+}
+h1{
+  color: white;
+}
+div.fixed {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.block {
+  display: block;
+  width: 100%;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: none;
+  text-align: center;
+  background-color: black; 
+  color: white; 
+  border: 2px solid #f72e7b;
+
+}
+
+
+
+#nav {
+  float: left;
+  font: bold 12px Arial, Helvetica, Sans-serif;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 0px;
+  overflow: hidden;
+  width:100%;
+  min-width: 650px;
+}
+
+#nav ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+#nav ul li {
+  float:left;
+  padding: 15px 15px;
+  width: 10%;
+  color: white;
+}
+
+.fa {
+  padding: 7px;
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 8px 2px;
+  border-radius: 50%;
+}
+.fa-instagram {
+  background: white;
+  color: white;
+}
+.fa-linkedin {
+  background: white;
+  color: white;
+}
+
+.fa-youtube {
+  background: white;
+  color: white;
+}
+.fa-facebook {
+  background: white;
+  color: white;
+}
+.font{
+  width: 10px;
+  right: 20px;
+}
+.icon-bar {
+  display: icon-bar;
+  overflow: auto;
+  float: left;
+  width: 80%;
+  text-align: center;
+  color:white;
+  font-size: 350px; 
+  border: 0px #f44336;
+}
+.write{
+  overflow: auto;
+  float: left;
+  width: 1100%;
+  text-align: right;
+}
+.column {
+  float: left;
+  width: 32%;
+  padding: 8px;
+  height: 120px;
+  margin-top: 270px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col{
+  margin-top: -269px;
+  float: left;
+  width: 110%;
+
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
+.center {
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
